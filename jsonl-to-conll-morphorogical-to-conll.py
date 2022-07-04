@@ -59,7 +59,7 @@ if __name__ == "__main__":
         pdjson["label"][index] = fix_new_span(row["label"], new_span)
 
     pdjson.to_json(
-        "test.jsonl",
+        "output_morphorogical.jsonl",
         orient='records',
         lines=True,
         force_ascii=False)
