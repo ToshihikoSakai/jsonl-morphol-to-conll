@@ -9,7 +9,7 @@ In this repository, the jsonl file output by doccano is morphologically analyzed
 * output: output_morphorogical.jsonl
 
 ```bash
-poetry run python jsonl-to-conll-morphorogical-to-conll.py docccano_output.jsonl
+poetry run python jsonl-to-morphorogical-to-jsonl.py docccano_output.jsonl
 
 ```
 
