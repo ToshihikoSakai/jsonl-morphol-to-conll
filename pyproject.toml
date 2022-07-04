@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jsonl-morphol-to-conll"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.3"
+mecab = "^0.996.3"
+pytextspan = "^0.5.4"
+jsonl-to-conll = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
